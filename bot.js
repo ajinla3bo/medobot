@@ -545,7 +545,8 @@ bot.create(function (err, session) {
   });
 });
  
-client.login("Bot Token");
+client.login(process.env.token);
+
  
 » :Description: - وصف الكود :
  كود رد مطور مثل => @Earl#4060
